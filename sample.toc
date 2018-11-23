@@ -1,0 +1,37 @@
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {section}{\numberline {2}LITERATURE REVIEW}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {section}{\numberline {3}IMPLEMENTATION STAGES}{5}
+\contentsline {subsection}{\numberline {3.1}Data Pre-Processing}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {3.2}CNN Modelling}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsubsection}{\numberline {3.2.1}Training}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsubsection}{\numberline {3.2.2}Testing}{10}
+\contentsline {subsubsection}{\numberline {3.2.3}Prediction accuracy}{10}
+\contentsline {section}{\numberline {4}EVALUATION}{11}
+\contentsline {section}{\numberline {5}CONCLUSIONS}{12}
+\contentsline {section}{\textbf {References}}{13}
+\contentsline {section}{\numberline {6}SCREENSHOTS}{15}
+\contentsline {section}{\numberline {7}APPENDIX}{17}
+\contentsline {subsection}{\numberline {7.1}Code}{17}
