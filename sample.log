@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.20)  23 NOV 2018 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.20)  27 NOV 2018 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,6 +239,24 @@ LaTeX Warning: Label `d' multiply defined.
 
 LaTeX Warning: Label `d' multiply defined.
 
+
+LaTeX Warning: Label `d' multiply defined.
+
+
+LaTeX Warning: Label `d' multiply defined.
+
+
+LaTeX Warning: Label `d' multiply defined.
+
+
+LaTeX Warning: Label `d' multiply defined.
+
+
+LaTeX Warning: Label `d' multiply defined.
+
+
+LaTeX Warning: Label `d' multiply defined.
+
 )
 \openout1 = `sample.aux'.
 
@@ -351,157 +369,160 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 <ceclogo.png, id=1, 125.71968pt x 121.20282pt>
 File: ceclogo.png Graphic file (type png)
 <use ceclogo.png>
-Package pdftex.def Info: ceclogo.png  used on input line 51.
+Package pdftex.def Info: ceclogo.png  used on input line 50.
 (pdftex.def)             Requested size: 125.71936pt x 121.20251pt.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ceclogo.png>]
 File: ceclogo.png Graphic file (type png)
 <use ceclogo.png>
-Package pdftex.def Info: ceclogo.png  used on input line 76.
+Package pdftex.def Info: ceclogo.png  used on input line 73.
 (pdftex.def)             Requested size: 125.71936pt x 121.20251pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
  [2] [1] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
  (./sample.toc
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 19.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 21.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 19.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 19.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 21.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 19.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 )
 \tf@toc=\write3
 \openout3 = `sample.toc'.
 
- [3] (./sample.lof)
-\tf@lof=\write4
-\openout4 = `sample.lof'.
-
- [4]
+ [3]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1]
-Overfull \hbox (5.30782pt too wide) in paragraph at lines 213--227
- [] \OT1/ptm/b/n/12 Fin-ger-print iden-ti-fi-ca-tion and recog-ni-tion us-ing back-prop-a-ga-tion neu-ral net-work \OT1/ptm/m/it/12 Adrian
+[1] [2] [3] [4] [5]
+<Figure1.png, id=38, 352.31625pt x 413.545pt>
+File: Figure1.png Graphic file (type png)
+<use Figure1.png>
+Package pdftex.def Info: Figure1.png  used on input line 229.
+(pdftex.def)             Requested size: 256.0759pt x 320.10281pt.
+ [6] [7 <./Figure1.png>]
+<Figure2.png, id=47, 350.30875pt x 418.56375pt>
+File: Figure2.png Graphic file (type png)
+<use Figure2.png>
+Package pdftex.def Info: Figure2.png  used on input line 246.
+(pdftex.def)             Requested size: 297.63556pt x 355.6595pt.
+ [8] [9 <./Figure2.png>]
+<Table1.png, id=56, 456.70625pt x 247.92625pt>
+File: Table1.png Graphic file (type png)
+<use Table1.png>
+Package pdftex.def Info: Table1.png  used on input line 266.
+(pdftex.def)             Requested size: 284.53476pt x 142.26518pt.
+ [10 <./Table1.png>] [11] [12]
+<Equation.png, id=67, 172.645pt x 61.22874pt>
+File: Equation.png Graphic file (type png)
+<use Equation.png>
+Package pdftex.def Info: Equation.png  used on input line 298.
+(pdftex.def)             Requested size: 170.71884pt x 56.90662pt.
+<Table2.png, id=68, 450.68375pt x 86.3225pt>
+File: Table2.png Graphic file (type png)
+<use Table2.png>
+Package pdftex.def Info: Table2.png  used on input line 310.
+(pdftex.def)             Requested size: 426.813pt x 85.3594pt.
+ [13 <./Equation.png>]
+<Figure3.png, id=73, 466.74374pt x 242.9075pt>
+File: Figure3.png Graphic file (type png)
+<use Figure3.png>
+Package pdftex.def Info: Figure3.png  used on input line 317.
+(pdftex.def)             Requested size: 455.26204pt x 227.62141pt.
+
+Overfull \hbox (2.29414pt too wide) in paragraph at lines 317--320
+ [][] 
  []
 
-[2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 309.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 309.
-<FLOWCHART.PNG, id=38, 183.68625pt x 197.23688pt>
-File: FLOWCHART.PNG Graphic file (type png)
-<use FLOWCHART.PNG>
-Package pdftex.def Info: FLOWCHART.PNG  used on input line 315.
-(pdftex.def)             Requested size: 426.85864pt x 512.27405pt.
- [5 <./FLOWCHART.PNG>]
-<dataset.PNG, id=45, 344.78813pt x 268.00125pt>
-File: dataset.PNG Graphic file (type png)
-<use dataset.PNG>
-Package pdftex.def Info: dataset.PNG  used on input line 336.
-(pdftex.def)             Requested size: 426.79631pt x 398.33679pt.
- [6 <./dataset.PNG>]
-<cnnfig.PNG, id=50, 356.0803pt x 257.46187pt>
-File: cnnfig.PNG Graphic file (type png)
-<use cnnfig.PNG>
-Package pdftex.def Info: cnnfig.PNG  used on input line 362.
-(pdftex.def)             Requested size: 426.81067pt x 512.19603pt.
- [7 <./cnnfig.PNG>]
-<fullconn.png, id=56, 334.24875pt x 275.0275pt>
-File: fullconn.png Graphic file (type png)
-<use fullconn.png>
-Package pdftex.def Info: fullconn.png  used on input line 406.
-(pdftex.def)             Requested size: 341.45963pt x 426.82957pt.
- [8] [9 <./fullconn.png>]
-<pred.PNG, id=64, 210.03468pt x 75.28125pt>
-File: pred.PNG Graphic file (type png)
-<use pred.PNG>
-Package pdftex.def Info: pred.PNG  used on input line 436.
-(pdftex.def)             Requested size: 284.5313pt x 284.64383pt.
- [10 <./pred.PNG>] [11] [12] [13
+[14 <./Table2.png> <./Figure3.png>]
+<Table3.png, id=80, 453.695pt x 204.765pt>
+File: Table3.png Graphic file (type png)
+<use Table3.png>
+Package pdftex.def Info: Table3.png  used on input line 334.
+(pdftex.def)             Requested size: 455.2446pt x 199.18106pt.
 
-] [14]
-<fingerinput.PNG, id=82, 635.37375pt x 399.74344pt>
-File: fingerinput.PNG Graphic file (type png)
-<use fingerinput.PNG>
-Package pdftex.def Info: fingerinput.PNG  used on input line 544.
-(pdftex.def)             Requested size: 426.80344pt x 284.53957pt.
-<fingerout.png, id=83, 461.47406pt x 197.23688pt>
-File: fingerout.png Graphic file (type png)
-<use fingerout.png>
-Package pdftex.def Info: fingerout.png  used on input line 552.
-(pdftex.def)             Requested size: 426.79343pt x 284.55054pt.
-<trainphto.PNG, id=84, 467.49657pt x 170.13562pt>
-File: trainphto.PNG Graphic file (type png)
-<use trainphto.PNG>
-Package pdftex.def Info: trainphto.PNG  used on input line 562.
-(pdftex.def)             Requested size: 426.81355pt x 284.54341pt.
- [15 <./fingerinput.PNG> <./fingerout.png>]
-<predct.PNG, id=90, 353.82187pt x 470.50781pt>
-File: predct.PNG Graphic file (type png)
-<use predct.PNG>
-Package pdftex.def Info: predct.PNG  used on input line 572.
-(pdftex.def)             Requested size: 426.79765pt x 284.52528pt.
- [16 <./trainphto.PNG> <./predct.PNG>]
-<codecnn.PNG, id=96, 451.6875pt x 363.60844pt>
-File: codecnn.PNG Graphic file (type png)
-<use codecnn.PNG>
-Package pdftex.def Info: codecnn.PNG  used on input line 596.
-(pdftex.def)             Requested size: 426.81937pt x 569.12436pt.
- [17 <./codecnn.PNG>]
-<codetest.PNG, id=101, 350.81062pt x 344.78813pt>
-File: codetest.PNG Graphic file (type png)
-<use codetest.PNG>
-Package pdftex.def Info: codetest.PNG  used on input line 605.
-(pdftex.def)             Requested size: 426.82138pt x 569.1126pt.
- [18 <./codetest.PNG>]
-<codetestall.PNG, id=106, 334.24875pt x 411.03563pt>
-File: codetestall.PNG Graphic file (type png)
-<use codetestall.PNG>
-Package pdftex.def Info: codetestall.PNG  used on input line 614.
-(pdftex.def)             Requested size: 426.82709pt x 569.0988pt.
- [19 <./codetestall.PNG>] (./sample.aux)
+Overfull \hbox (2.2767pt too wide) in paragraph at lines 334--337
+ [][] 
+ []
+
+[15] [16 <./Table3.png>]
+<Figure4.png, id=88, 487.8225pt x 226.8475pt>
+File: Figure4.png Graphic file (type png)
+<use Figure4.png>
+Package pdftex.def Info: Figure4.png  used on input line 348.
+(pdftex.def)             Requested size: 455.24826pt x 213.39589pt.
+
+Overfull \hbox (2.28036pt too wide) in paragraph at lines 348--351
+ [][] 
+ []
+
+<Figure5.png, id=89, 449.68pt x 257.96375pt>
+File: Figure5.png Graphic file (type png)
+<use Figure5.png>
+Package pdftex.def Info: Figure5.png  used on input line 356.
+(pdftex.def)             Requested size: 455.26419pt x 213.40132pt.
+
+Overfull \hbox (2.2963pt too wide) in paragraph at lines 356--359
+ [][] 
+ []
+
+[17 <./Figure4.png> <./Figure5.png>] [18]
+<Table4.png, id=98, 442.65375pt x 168.63pt>
+File: Table4.png Graphic file (type png)
+<use Table4.png>
+Package pdftex.def Info: Table4.png  used on input line 373.
+(pdftex.def)             Requested size: 438.19478pt x 167.87308pt.
+ [19 <./Table4.png>] [20]
+Underfull \hbox (badness 2772) in paragraph at lines 399--400
+[]\OT1/ptm/m/n/12 A.PavlenkoandV.Driagina,``RussianemotionvocabularyinAmerican learn-ers' nar-ra-tives,''
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 402--403
+[]\OT1/ptm/m/n/12 B.Pang,L.Lee,andS.Vaithyanathan,``Thumbsup?:Sentiment clas-si-fi-ca-tion us-ing ma-chine
+ []
+
+[21
+
+] [22] (./sample.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4038 strings out of 492649
- 61033 string characters out of 6129621
- 128191 words of memory out of 5000000
- 7832 multiletter control sequences out of 15000+600000
- 21497 words of font info for 45 fonts, out of 8000000 for 9000
+ 3998 strings out of 492649
+ 60422 string characters out of 6129621
+ 128167 words of memory out of 5000000
+ 7801 multiletter control sequences out of 15000+600000
+ 21240 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,1597b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sample.pdf (25 pages, 773802 bytes).
+ 41i,10n,43p,1570b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sample.pdf (27 pages, 701890 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

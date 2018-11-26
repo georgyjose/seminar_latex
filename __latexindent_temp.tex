@@ -166,34 +166,6 @@ To address this issue, sentiment analysis techniques to assisting language learn
 \paragraph{}
 This report is structured as follows. We first give a brief overview of the role of and the approach to emotion vocabulary in sentiment analysis. Also, studies of emotion vocabulary learning are discussed. Subsequently, the development of RESOLVE is described. This is followed by an evaluation study, in which the results are discussed. 
 
-
-\newpage
-\section{LITERATURE REVIEW}
-\paragraph{}
-\textbf{Affective processing in bilingual speakers: Disembodied cognition?} 
-\textit{A. Pavlenko} in this paper says that
-“thinking in a foreign language” may reduce decision biases because a foreign language provides a greater emotional distance than a native tongue. The possibility of such “disembodied” cognition is of great interest for theories of affect and cognition and for many other areas of psychological theory and practice, from clinical and forensic psychology to marketing, but first this claim needs to be properly evaluated. The findings to date reveal two interrelated processing effects. First‐language (L1) advantage refers to increased automaticity of affective processing in the L1 and heightened electrodermal reactivity to L1 emotion‐laden words. Second‐language (L2) advantage refers to decreased automaticity of affective processing in the L2, which reduces interference effects and lowers electrodermal reactivity to negative emotional stimuli. 
-\paragraph{}
-\textbf{Emotion memory and bilingualism} 
-\textit{J. Altarriba, J. Altarriba and R. Heredia} in this paper says that
-language is a primary vehicle through which we communicate our beliefs, perceptions and knowledge of the world, and thoughts and information about ourselves. One of the types of information that we readily communicate involves reports of our feelings and emotions.
-\paragraph{}
-\textbf{The semantics of the affective lexicon} 
-\textit{G. L. Clore and A. Ortony} in this paper considers
-emotions are psychological states, but not all psychological states are emotional; for example, neither a state of exhaustion nor a state of confusion is an emotion. Emotions are sometimes expressed facially, but not all facial expressions indicate emotions; neither a grimace of pain nor a frown of puzzlement is an emotional expression. Emotions also involve feelings, but not all feelings indicate emotions; neither hunger pangs nor a feeling of certainty is an emotional feeling. Most people would readily agree to these assertions. They involve more or less clear cases. The question posed in this paper is whether we can establish, on the basis of such clear cases, a set of criteria that will also differentiate emotions from nonemotions in less clear cases.
-\paragraph{}
-\textbf{What are sentiment affect and emotion? Applying the methodology of Michael Zock to sentiment analysis} 
-\textit{E. H. Hovy, N. Gala, R. Rapp and G. Bel-Enguix} in this paper says that
-in Natural Language Processing, researchers assume almost universally that speakers hold some affective value or sentiment with regard to a topic such as a film or camera, that this sentiment has a fixed, and that the sentiment is expressed in text through a word or small combination of words. Even the Wikipedia definition, which is a little more careful than most of the NLP literature, uses words like “polarity”, “affective state”, and “emotional effect” without definition. This paper first provide interesting examples of real-world usage, then explore some definitions of sentiment, affect, opinion, and emotion, and conclude with a few suggestions for how computational studies might address the problem in a more informed way.
-\paragraph{}
-\textbf{Russian emotion vocabulary in American learners’ narratives} 
-\textit{A. Pavlenko and V. Driagina} in this paper
-compared the uses of emotion vocabulary in narratives elicited from monolingual speakers of Russian and English and advanced American learners of Russian. English speakers favoured an adjectival pattern of emotion description, and Russian speakers a verbal one. Advanced American learners of Russian shifted from the adjectival to the verbal pattern in Russian and thus began approximating the usage of native speakers of Russian. At the same time, the data revealed 6 areas where learner usage differed from the monolingual Russian corpus: morphosyntactic transfer from the first language (L1), semantic transfer from the L1, greater use of adverbial constructions, absence of a language‐specific verb frequently used by native Russian speakers, violations of appropriateness of sociolinguistic register, and a significantly lower proportion of emotion word tokens.
-\paragraph{}
-\textbf{Thumbs up?: Sentiment classification using machine learning techniques} 
-\textit{B. Pang, L. Lee and S. Vaithyanathan} in this paper says that
-We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative. Using movie reviews as data, we find that standard machine learning techniques definitively outperform human-produced baselines. However, the three machine learning methods we employed (Naive Bayes, maximum entropy classification, and support vector machines) do not perform as well on sentiment classification as on traditional topic-based categorization. We conclude by examining factors that make the sentiment classification problem more challenging.
-
 \newpage
 \section{RELATED WORK}
 \subsection{Emotion Vocabulary in Sentiment Analysis}
@@ -232,15 +204,12 @@ The above mentioned differences reflect the complexities of emotion word use, wh
 \caption{Figure 1}
 \end{figure}
 
-\newpage
 \section{DEVELOPMENT OF RESOLVE}
 To provide learners with technology support, a corpus was built and a writing assistance system was developed. 
 \paragraph{}
 Regarding the corpus, 1,000 emotion words from WordNet-Affect were first collected. Next, to increase coverage, 2,785 synonyms of the above emotion words were included from WordNet Synset and the Merriam Webster Dictionary. Then, following classification of the emotion words used in WordNet Affect, all 3,785 emotion words were categorized into six major emotion categories: anger, disgust, fear, joy, sadness, and surprise, which is the most used characterization in many studies. 
 \paragraph{}
 The RESOLVE system was developed adopting machine learning techniques because of its strength of learning from data and making predictions, which is an effective approach to sentiment analysis or opinion mining. Figure 1 shows the RESOLVE framework. We first extracted approximately 2.8 million example sentences from Vocabulary.com and calculated the co-occurrences of all 3,785 emotion words and these example sentences. The purpose of this was to determine the appropriateness of the emotion words for the example sentences. At runtime, the synonyms of the target emotion word in the learner context are collected from Word- Net Synset. Next, each sentence in the learner context is compared with the sentences in Vocabulary.com using the edit distance algorithm, which quantifies the similarity between two word sequences as the number of steps it takes to trans- form one into the other. As a result, those sentences in the dictionary that share the highest similarity with those in the learner writings are then selected. Based on the co-occurrence of the collected synonymous emotion words and the selected sentences from the dictionary, the sorting algorithm ranks the synonyms. As a result, the suggested emotion words are context-aware instead of being listed in an alphabetical order. It is worth noting that given more detailed contextual clues, the algorithm can effectively specify the emotion. However, longer contexts and more synonyms would increase computational complexity. 
-\paragraph{}
-To prevent the context-switching problem, the RESOLVE interface (Figure 2) consists of a writing area on the left and a reference area on the right. Once the learner finishes writing, he may highlight the target emotion word surprising and click the synonym look up button.
 
 \begin{figure}[H]
 \includegraphics[height=12.5cm,width=10.46cm]{Figure2.png}
@@ -250,11 +219,10 @@ To prevent the context-switching problem, the RESOLVE interface (Figure 2) consi
 \end{figure}
 
 \paragraph{}
-On receiving this request, the system initializes four zones on the right: synonyms for surprising, explanation of how the word can be used, definition, and usage examples. The listed emotion synonyms are amazing, surprising, astonishing, shocking, and startling, which are ranked based on the given context. This synonym ranking suggests the extent of their appropriateness. In this case amazing is deemed more appropriate than startling. Note that the suggested synonyms may include the target word. 
+To prevent the context-switching problem, the RESOLVE interface (Figure 2) consists of a writing area on the left and a reference area on the right. Once the learner finishes writing, he may highlight the target emotion word surprising and click the synonym look up button. On receiving this request, the system initializes four zones on the right: synonyms for surprising, explanation of how the word can be used, definition, and usage examples. The listed emotion synonyms are amazing, surprising, astonishing, shocking, and startling, which are ranked based on the given context. This synonym ranking suggests the extent of their appropriateness. In this case amazing is deemed more appropriate than startling. Note that the suggested synonyms may include the target word. 
 \paragraph{}
 If the learner selects one of the synonyms, such as astonishing, the system returns the corresponding usage information, including the descriptions of the specific scenarios, definitions, and example sentences. Such information illustrates how the emotion word could be used, which enables learners to differentiate nuances of emotion words and select appropriate emotion words to fit their contexts. In this way, the suggested synonyms are customized for individual learners. 
 
-\newpage
 \section{THE EVALUATION STUDY}
 To assess the system’s effectiveness, an evaluation study was conducted. Note that the research materials and experimental procedures were pilot tested. 
 
@@ -287,8 +255,6 @@ A pilot test was conducted three months before the experiment to identify the fe
 Several issues are worth noting. First, the second scenario was determined to avoid the effect of short-term memory mainly because the writing task of scenario two was per- formed in the third week, which was not too close to either the pre-test week or the post-test week. Second, the events they described in the pre- and post-tests were identical. The purpose was to compare the appropriateness of the emotion words the participants produced. Third, the participants were unable to refer back to their previous writings, which discouraged them from copying the previous writings. Note that on both the pre- and post-tests, the participants completed their writings using the RESOLVE interface but with the suggestion of synonymous emotion words withheld. 
 \subsection{Design of Scoring Criteria}
 To evaluate the appropriateness of learners’ emotion word use, a 7-point grading scale ranging from 0 (the least appropriate) to 6 (the most appropriate) was used. Two native- speaker judges, trained before the pilot study, were given the participants’ pre-and post-writings as well as the lists of synonyms of the target emotion words they produced, which were extracted from the corpus. The judges gave scores to each emotion synonym on the lists based on the participants’ contexts. Note that the judges had no information about the target emotion words participants produced in both the pre-and post-writings, which avoided scoring bias. Participants’ word choice rather than grammatical accuracy was the focus in the evaluation. If two or more words were considered equally appropriate, they were given equal scores. A weighted Cohen’s Kappa value of 0.68 indicated substantial agreement between the judges. 
-
-\newpage
 \section{RESULTS AND DISCUSSION}
 The current study investigates whether and to what extent RESOLVE helped language learners with emotion word use. We examined learner emotion word use in the pre- and post-writings as well as analysed their reflections of RESOLVE experience. To reflect learner performance accurately, the results of the two judges’ evaluations on each issue were reported respectively. 
 \subsection{Tool Effectiveness on Learner Use of Emotion Words}
@@ -344,8 +310,9 @@ If we exclude the markedly different data, a similar trend can be seen in the ju
 \paragraph{}
 It is worth noting that for the participants whose English proficiency was extremely high or extremely low, the bene- fit of RESOLVE was less obvious. It is not surprising that advanced learners had sufficient competence to make appropriate lexical choices. On the other hand, the low-achieving learners’ limited vocabulary was likely to make emotion word learning much more demanding. Overall, less proficient learners significantly benefitted from the proposed system, RESOLVE, in emotion word learning compared with the highly proficient learners, which was expected. 
 
+\vspace{2em}
 \begin{figure}[H]
-\includegraphics[height=7.5cm,width=16cm]{Figure4.png}
+\includegraphics[height=8cm,width=16cm]{Figure4.png}
 \counterwithin{figure}{section}
 \centering
 \caption{Figure 4}
@@ -353,7 +320,7 @@ It is worth noting that for the participants whose English proficiency was extre
 
 
 \begin{figure}[H]
-\includegraphics[height=7.5cm,width=16cm]{Figure5.png}
+\includegraphics[height=8cm,width=16cm]{Figure5.png}
 \counterwithin{figure}{section}
 \centering
 \caption{Figure 5}
@@ -370,16 +337,15 @@ The second panel shows participant perceptions on system usefulness, including s
 The last question (item 7) sought participant reflections on the role of RESOLVE for language proficiency. Nearly 80\% of the learners (26 out of 33 participants) saw RESOLVE as a practical reference aid that benefited their writing and promoted language competence. A significantly higher number of less proficient learners (n=16) acknowledged the tool assistance. The opinions of the less proficient participants echoed the findings of the previous research questions that they received greater benefit from the tool support than their counterparts. 
 
 \begin{figure}[H]
-\includegraphics[height=5.9cm,width=15.4cm]{Table4.png}
+\includegraphics[height=11.25cm,width=9cm]{Table4.png}
 \counterwithin{figure}{section}
 \centering
 \caption{Table 4}
 \end{figure}
 
-\newpage
 \section{CONCLUSION}
 \paragraph{}
-Emotion vocabulary has been an important concern in several disciplines. They were especially widely used in sentiment detection or prediction. However, it has not received particular attention in foreign language teaching and learning. In view of the paucity of research, we developed RESOLVE, a context-based emotion synonym suggestion system. Developed using machine learning techniques, RESOLVE is capable of suggesting contextually appropriate emotion synonyms. The usage information is also provided to reinforce learner’s word use. The tool effective- ness was assessed using a writing task and a reflection questionnaire. The results demonstrated that both the suggested emotion synonyms and the corresponding usage information are beneficial to learners’ use of emotion vocabulary. Notably, less proficient participants showed greater improvements.
+Emotion vocabulary has been an important concern in several disciplines. They were especially widely used in sentiment detection or prediction. However, it has not received particular attention in foreign language teaching and learning. In view of the paucity of research, we developed RESOLVE, a context-based emotion synonym suggestion system. Developed using machine learning techniques, RESOLVE is capable of suggesting contextually appropriate emotion synonyms. The usage information is also provided to reinforce learner’s word use. The tool effective- ness was assessed using a writing task and a reflection questionnaire. The results demonstrated that both the suggested emotion synonyms and the corresponding usage information are beneficial to learners’ use of emotion vocabulary. Notably, less proficient participants showed greater improvements. Moreover, analysis of the questionnaire responses showed that the participants appreciated the tool support in learning appropriate emotion word use. 
 \subsection{Pedagogical Implications}
 Mastering emotion words is a challenging task for language learners, so emotion vocabulary should be explicitly taught and consciously learned. The RESOLVE system is applicable for use in classroom teaching and activities. The approach proposed in this study could be replicated in the classroom. Instructors could create various scenarios for specific emotion categories and have their students compose writings via consulting RESOLVE. Afterwards, instructors elaborate on how the words students produce could be used in various scenarios. Such pedagogical activities enable learners to develop a clearer understanding of as well as stronger command of emotion word use. 
 \subsection{Limitations and Future Work}
