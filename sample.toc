@@ -8,56 +8,63 @@
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
-\contentsline {section}{\numberline {2}RELATED WORK}{2}
-\contentsline {subsection}{\numberline {2.1}Emotion Vocabulary in Sentiment Analysis}{2}
+\contentsline {section}{\numberline {2}LITERATURE REVIEW}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
 \contentsline {paragraph}{}{2}
-\contentsline {subsection}{\numberline {2.2}Studies of Emotion Vocabulary in Language Learning}{3}
-\contentsline {subsubsection}{\numberline {2.2.1}Language Learners\IeC {\textquoteright } Command of Emotion Vocabulary}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{}{3}
-\contentsline {subsubsection}{\numberline {2.2.2}Complexity of Emotion Word Use}{3}
-\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {3}RELATED WORK}{4}
+\contentsline {subsection}{\numberline {3.1}Emotion Vocabulary in Sentiment Analysis}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {section}{\numberline {3}DEVELOPMENT OF RESOLVE}{6}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {3.2}Studies of Emotion Vocabulary in Language Learning}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Language Learners\IeC {\textquoteright } Command of Emotion Vocabulary}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Complexity of Emotion Word Use}{5}
+\contentsline {paragraph}{}{5}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {paragraph}{}{7}
-\contentsline {paragraph}{}{7}
-\contentsline {section}{\numberline {4}THE EVALUATION STUDY}{8}
-\contentsline {subsection}{\numberline {4.1}Participants}{8}
-\contentsline {subsection}{\numberline {4.2}Research Materials}{8}
+\contentsline {section}{\numberline {4}DEVELOPMENT OF RESOLVE}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {paragraph}{}{9}
-\contentsline {subsection}{\numberline {4.3}Data Collection Procedure}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {paragraph}{}{9}
+\contentsline {section}{\numberline {5}THE EVALUATION STUDY}{10}
+\contentsline {subsection}{\numberline {5.1}Participants}{10}
+\contentsline {subsection}{\numberline {5.2}Research Materials}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {4.4}Design of Scoring Criteria}{10}
-\contentsline {section}{\numberline {5}RESULTS AND DISCUSSION}{11}
-\contentsline {subsection}{\numberline {5.1}Tool Effectiveness on Learner Use of Emotion Words}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {5.3}Data Collection Procedure}{11}
 \contentsline {paragraph}{}{11}
 \contentsline {paragraph}{}{11}
 \contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {5.4}Design of Scoring Criteria}{12}
+\contentsline {section}{\numberline {6}RESULTS AND DISCUSSION}{13}
+\contentsline {subsection}{\numberline {6.1}Tool Effectiveness on Learner Use of Emotion Words}{13}
 \contentsline {paragraph}{}{13}
-\contentsline {subsection}{\numberline {5.2}Performance Comparison of Learners}{13}
 \contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{13}
-\contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{15}
-\contentsline {subsection}{\numberline {5.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{16}
-\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {6.2}Performance Comparison of Learners}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{16}
 \contentsline {paragraph}{}{16}
 \contentsline {paragraph}{}{17}
-\contentsline {section}{\numberline {6}CONCLUSION}{18}
+\contentsline {subsection}{\numberline {6.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{18}
 \contentsline {paragraph}{}{18}
-\contentsline {subsection}{\numberline {6.1}Pedagogical Implications}{18}
-\contentsline {subsection}{\numberline {6.2}Limitations and Future Work}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{19}
+\contentsline {section}{\numberline {7}CONCLUSION}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {subsection}{\numberline {7.1}Pedagogical Implications}{20}
+\contentsline {subsection}{\numberline {7.2}Limitations and Future Work}{20}
