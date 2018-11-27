@@ -1,12 +1,15 @@
 \documentclass[a4paper,12pt,oneside]{article}
 \usepackage{amsmath}
 \usepackage{mathtools}
-\usepackage{caption}
+% \usepackage{caption}
+\usepackage[labelformat=empty]{caption}
 \usepackage{mathptmx}
 \usepackage{fixltx2e}
 \usepackage{graphicx}
 \usepackage[margin=1.0in]{geometry}
 \usepackage{float}
+\let\counterwithout\relax
+\let\counterwithin\relax
 \usepackage{setspace}
 \usepackage{chngcntr}
 \usepackage{fancyhdr}
@@ -91,18 +94,18 @@ Submitted by
 \\
 is a bonafide record of the work done by him.
 \end{center}
-\vspace{14ex}
+\vspace{30ex}
 %\textbf{Mrs.Sheeba}
 \hspace{55ex}
 %\textbf{Dr. Smitha Dharan}
 \\
-\vspace{2ex}
+
 \hspace{0ex}
-\textbf{
-Co-ordinator}
-\hspace{45ex}
-\textbf{
-Head of The Department}
+\textbf{Co-ordinator}
+\hspace{16ex}
+\textbf{Guide}
+\hspace{16ex}
+\textbf{Head of the Department}
 \newpage
 \pagenumbering{roman}
 \renewcommand{\headrulewidth}{0.0pt}
@@ -121,8 +124,8 @@ of Engineering Chengannur for extending all the facilities required for doing my
 I would also like to thank \textbf{Dr. Smitha Dharan}, Head, Department of Computer
 Engineering, for providing constant support and encouragement.
 \paragraph{}
-Now I extend my sincere thanks to my seminar co-ordinators \textbf{Ms. Shiny B}, Assistant
-Professor in Computer Engineering, \textbf{Ms. Angel Thankam Thomas}, Assistant
+Now I extend my sincere thanks to my seminar co-ordinators \textbf{Mrs. Shiny B}, Assistant
+Professor in Computer Engineering, \textbf{Mrs. Jyothirmayi Devi}, Assistant
 Professor in Computer Engineering and \textbf{Ms. Archana} Assistant Professor in Computer Engineering for guiding me in my work and providing timely
 advices and valuable suggestions.
 \paragraph{}
@@ -136,7 +139,7 @@ their support and assistance.
 \end{center}
 \vspace{4ex}
 \paragraph{}
-Emotion vocabulary has been studied in various disciplines, such as psychology, linguistics, and computational linguistics. Recently, it plays a requisite role in sentiment analysis or opinion mining. However, emotion vocabulary has not received considerable attention in second or foreign language learning. The insufficient pedagogical materials and inefficient tool support seem to provide little help for learners to master emotion words. The current study considers the application of sentiment analysis to language learning. \textbf{RESOLVE} is a context-aware emotion synonym suggestion system, which utilizing machine-learning techniques, the system is capable of suggesting synonymous emotion words appropriate to learners’ contexts. Importantly, the usage information of each emotion word, including scenario descriptions, definitions, and example sentences, is provided in order to help develop language learners’ vocabulary knowledge as well as help facilitate their word use. 
+Emotion vocabulary has been studied in various disciplines, such as psychology, linguistics, and computational linguistics. Recently, it plays a requisite role in sentiment analysis or opinion mining. However, emotion vocabulary has not received considerable attention in second or foreign language learning. The insufficient pedagogical materials and inefficient tool support seem to provide little help for learners to master emotion words. The current study considers the application of sentiment analysis to language learning. RESOLVE is a context-aware emotion synonym suggestion system, which utilizing machine-learning techniques, the system is capable of suggesting synonymous emotion words appropriate to learners’ contexts. Importantly, the usage information of each emotion word, including scenario descriptions, definitions, and example sentences, is provided in order to help develop language learners’ vocabulary knowledge as well as help facilitate their word use. 
 \paragraph{}
 A pedagogical evaluation of the system’s effectiveness was conducted using a writing task and a survey questionnaire. The results indicate that the participants achieved substantial progress on emotion word use with the help of the proposed system. In particular, less proficient participants demonstrated greater improvements. Meanwhile, participants showed positive attitudes toward the tool support, as it helps them to have a better command of emotion words in their writings.
 \setlength{\baselineskip}{1.0\baselineskip}
@@ -148,11 +151,11 @@ A pedagogical evaluation of the system’s effectiveness was conducted using a w
 
 
 % List of Figures Page
-% \newpage
-% \thispagestyle{plain}
-% \begin{center}
-% \listoffigures
-% \end{center}
+\newpage
+\thispagestyle{plain}
+\begin{center}
+\listoffigures
+\end{center}
 
 
 
@@ -235,9 +238,9 @@ The above mentioned differences reflect the complexities of emotion word use, wh
 
 \begin{figure}[H]
 \includegraphics[height=11.25cm,width=9cm]{Figure1.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{RESOLVE framework (Figure 1)}
+\caption{RESOLVE framework (Figure 1)}
 \end{figure}
 
 \newpage
@@ -252,9 +255,9 @@ To prevent the context-switching problem, the RESOLVE interface (Figure 2) consi
 
 \begin{figure}[H]
 \includegraphics[height=12.5cm,width=10.46cm]{Figure2.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{RESOLVE system interface (Figure 2)}
+\caption{RESOLVE system interface (Figure 2)}
 \end{figure}
 
 \paragraph{}
@@ -272,9 +275,9 @@ Thirty-six volunteers were recruited online to participate in this experiment. T
 
 \begin{figure}[H]
 \includegraphics[height=5cm,width=10cm]{Table1.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Example scenarios of anger and disgust (Table 1)}
+\caption{Example scenarios of anger and disgust (Table 1)}
 \end{figure}
 
 \subsection{Research Materials}
@@ -302,12 +305,9 @@ The current study investigates whether and to what extent RESOLVE helped languag
 \subsection{Tool Effectiveness on Learner Use of Emotion Words}
 The first research question investigated whether learners benefitted from the proposed tool support. To answer this question, we compared learners’ scores of their emotion word use in the pre-and post-writings. Besides the gain scores, we also reported learners’ error reduction ratios (ERR) in order to avoid analytical bias. 
 
-\begin{figure}[H]
-\includegraphics[height=2cm,width=6cm]{Equation.png}
-\counterwithin{figure}{section}
-\centering
-% \caption{Equation}
-\end{figure}
+\begin{equation}
+    \dfrac{Post-Pre}{Max-Pre}
+\end{equation}
 
 \paragraph{}
 The error reduction ratio (ERR) quantifies the learner’s error reduction from the pre-test to the full mark, which is shown in above equation. where Max is the full mark (six in our scoring scheme), Post and Pre are the scores of post- and pre-tests, respectively. This can be interpreted as a measure of the room for improvement. Note that errors in this study indicate inappropriate emotion word use. Taking this study as an example, two learners both improved their scores by 1 point (out of 6): one learner’s score increased from 4 to 5; the other from 5 to 6. Their improvements were 20.0% ((5−4)/5) and 16.7% ((6−5)/6) respectively. At first sight, the learner who scored higher at first did not make as significant progress as the lower-scoring learner. Indeed, to a certain extent, it can be hard for learners with better initial performance to make considerable improvements. However, the ERR shows different results. The improvement of the initially lower-scoring learner is 50.0% ((5−4)/(6−4)) while that of the initially higher-scoring learner is 100.0% ((6−5)/(6−5)). Because ERR provides us with an alternative view on learners’ improvement, we included ERR to examine participants’ performances. The two judges’ scorings were reported individually, which helped us learn the different views they held on learners’ emotion word use. 
@@ -316,16 +316,16 @@ We first compared learners’ average scores in the pre- and post-tests. The fir
 
 \begin{figure}[H]
 \includegraphics[height=3cm,width=15cm]{Table2.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Participant performance on pre-and post-tests (Table 2)}
+\caption{Participant performance on pre-and post-tests (Table 2)}
 \end{figure}
 
 \begin{figure}[H]
 \includegraphics[height=8cm,width=16cm]{Figure3.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Learning effectiveness of students with different proficiency levels (Figure 3)}
+\caption{Learning effectiveness of students with different proficiency levels (Figure 3)}
 \end{figure}
 
 \paragraph{}
@@ -340,9 +340,9 @@ Taken together, the judges shared similar opinions with respect to the performan
 
 \begin{figure}[H]
 \includegraphics[height=7cm,width=16cm]{Table3.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Breakdown of four participants’ emotion word use and scores before and after treatment (Table 3)}
+\caption{Breakdown of four participants’ emotion word use and scores before and after treatment (Table 3)}
 \end{figure}
 
 \paragraph{}
@@ -354,17 +354,17 @@ It is worth noting that for the participants whose English proficiency was extre
 
 \begin{figure}[H]
 \includegraphics[height=7.5cm,width=16cm]{Figure4.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Relationship between learner language proficiency and extent of improvement (Figure 4)}
+\caption{Relationship between learner language proficiency and extent of improvement (Figure 4)}
 \end{figure}
 
 
 \begin{figure}[H]
 \includegraphics[height=7.5cm,width=16cm]{Figure5.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Relationship between learner language proficiency and extent of improvement excluding the four outliers (Figure 5)}
+\caption{Relationship between learner language proficiency and extent of improvement excluding the four outliers (Figure 5)}
 \end{figure}
 
 \subsection{Learners’ Perceptions of Context-Based Emotion Synonym Learning}
@@ -379,10 +379,14 @@ The last question (item 7) sought participant reflections on the role of RESOLVE
 
 \begin{figure}[H]
 \includegraphics[height=5.9cm,width=15.4cm]{Table4.png}
-\counterwithin{figure}{section}
+%\counterwithin{figure}{section}
 \centering
-% \caption{Survey results of participant perceptions on RESOLVE (Table 4)}
+\caption{Survey results of participant perceptions on RESOLVE (Table 4)}
 \end{figure}
+
+\newpage
+\section{Limitations and Future Work}
+To the best of our knowledge, this is the first study considering the application of sentiment analysis to assisting language learning. It is worth mentioning that although the focus of the current study is emotion vocabulary learning, the RESOLVE system can be easily adapted for other vocabulary or synonym learning. While the preliminary findings supported that the developed system was beneficial to emotion word use, there are limitations in this study that could be improved. For example, a greater number of participants should be involved, which could help us take a closer look at potential learner difficulties in the use of emotion words. Also, tool comparison (e.g., online thesauri) could be conducted to examine their individual impacts on learners. 
 
 \newpage
 \section{CONCLUSION}
@@ -390,8 +394,6 @@ The last question (item 7) sought participant reflections on the role of RESOLVE
 Emotion vocabulary has been an important concern in several disciplines. They were especially widely used in sentiment detection or prediction. However, it has not received particular attention in foreign language teaching and learning. In view of the paucity of research, we developed RESOLVE, a context-based emotion synonym suggestion system. Developed using machine learning techniques, RESOLVE is capable of suggesting contextually appropriate emotion synonyms. The usage information is also provided to reinforce learner’s word use. The tool effective- ness was assessed using a writing task and a reflection questionnaire. The results demonstrated that both the suggested emotion synonyms and the corresponding usage information are beneficial to learners’ use of emotion vocabulary. Notably, less proficient participants showed greater improvements.
 \subsection{Pedagogical Implications}
 Mastering emotion words is a challenging task for language learners, so emotion vocabulary should be explicitly taught and consciously learned. The RESOLVE system is applicable for use in classroom teaching and activities. The approach proposed in this study could be replicated in the classroom. Instructors could create various scenarios for specific emotion categories and have their students compose writings via consulting RESOLVE. Afterwards, instructors elaborate on how the words students produce could be used in various scenarios. Such pedagogical activities enable learners to develop a clearer understanding of as well as stronger command of emotion word use. 
-\subsection{Limitations and Future Work}
-To the best of our knowledge, this is the first study considering the application of sentiment analysis to assisting language learning. It is worth mentioning that although the focus of the current study is emotion vocabulary learning, the RESOLVE system can be easily adapted for other vocabulary or synonym learning. While the preliminary findings supported that the developed system was beneficial to emotion word use, there are limitations in this study that could be improved. For example, a greater number of participants should be involved, which could help us take a closer look at potential learner difficulties in the use of emotion words. Also, tool comparison (e.g., online thesauri) could be conducted to examine their individual impacts on learners. 
 
 \newpage
 \cleardoublepage

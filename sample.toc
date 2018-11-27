@@ -58,13 +58,13 @@
 \contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{16}
 \contentsline {paragraph}{}{16}
-\contentsline {paragraph}{}{16}
-\contentsline {subsection}{\numberline {6.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{17}
 \contentsline {paragraph}{}{17}
+\contentsline {subsection}{\numberline {6.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{18}
+\contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{19}
-\contentsline {section}{\numberline {7}CONCLUSION}{20}
-\contentsline {paragraph}{}{20}
-\contentsline {subsection}{\numberline {7.1}Pedagogical Implications}{20}
-\contentsline {subsection}{\numberline {7.2}Limitations and Future Work}{20}
+\contentsline {section}{\numberline {7}Limitations and Future Work}{20}
+\contentsline {section}{\numberline {8}CONCLUSION}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {8.1}Pedagogical Implications}{21}
