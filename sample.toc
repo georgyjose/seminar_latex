@@ -52,15 +52,15 @@
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{}{14}
-\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{14}
 \contentsline {subsection}{\numberline {6.2}Performance Comparison of Learners}{15}
 \contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{16}
 \contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {6.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{17}
 \contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {6.3}Learners\IeC {\textquoteright } Perceptions of Context-Based Emotion Synonym Learning}{18}
-\contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{19}

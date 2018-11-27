@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1543264388 "/Users/georgyjose/Downloads/fingerprint report/sample.tex" "sample.pdf" "sample" 1543265382
-  "/Users/georgyjose/Downloads/fingerprint report/sample.tex" 1543265171 50554 5c7aff9165f29752b730ddc12037abe2 ""
+["pdflatex"] 1543299310 "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" "sample.pdf" "sample" 1543299311
+  "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" 1543299310 51191 63c42e5bd5dda5b3472fcf41a6bb457e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -52,6 +52,8 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty" 1523134385 2591 6404d0c7d28505fb38ce0d86c2e28ae7 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty" 1523134385 3977 cb9221976ed8a183afad65b59aa8629a ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1480098833 678 4792914a8f45be57bb98413425e4c7af ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty" 1515449928 53430 0411f0481da6078e76fd7de46531d2e0 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1496786006 5317 cf75154a8a7e6436f05a5be497f0b05e ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty" 1480098836 12095 5337833c991d80788a43d3ce26bd1c46 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty" 1480098836 7075 2fe3d848bba95f139de11ded085e74aa ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty" 1480098836 22417 1d9df1eb66848aa31b18a593099cf45c ""
@@ -62,6 +64,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1480098837 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd" 1480098837 329 aee7226812ba4138ac67a018466b488d ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty" 1480098838 22913 a27d7908fc6f0385466454a966a316eb ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty" 1523050425 10212 357072c1d20578a30d6387d8a22e72ab ""
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1542734373 4220281 3a939d5372a6980f919dc88fca39bcaf ""
@@ -77,11 +80,12 @@
   "Table3.png" 1543265171 97083 dd0205e084a73dbbc6dd61307fe273b7 ""
   "Table4.png" 1543265171 80686 acbf6c434d084ef1628e54be03d8496e ""
   "ceclogo.png" 1539309836 25678 d9b8faa68799b5bb943adeab9f6e7510 ""
-  "sample.aux" 1543265171 5716 e2d4ad705bce97adbc6c9594b7c8c0fc ""
-  "sample.tex" 1543265171 50554 5c7aff9165f29752b730ddc12037abe2 ""
-  "sample.toc" 1543265171 3137 3a6ef9328dab8b5ffcf41ea0fa3378f7 ""
+  "sample.aux" 1543299311 4782 6314ca7ad3f91f1385f13c086e8b3c58 ""
+  "sample.tex" 1543299310 51191 63c42e5bd5dda5b3472fcf41a6bb457e ""
+  "sample.toc" 1543299311 3137 9130820ba5901461cc718deecf19f5c5 ""
   (generated)
   "sample.toc"
+  "sample.log"
+  "sample.lof"
   "sample.pdf"
   "sample.aux"
-  "sample.log"
