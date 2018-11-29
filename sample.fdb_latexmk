@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1543321746 "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" "sample.pdf" "sample" 1543321747
-  "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" 1543321745 51190 a4bbca8f55187c993edf244ff600139e ""
+["pdflatex"] 1543458939 "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" "sample.pdf" "sample" 1543458940
+  "/Users/georgyjose/Downloads/Georgy Seminar Report/sample.tex" 1543458939 51217 f2d4a2b9c68e2844a015de00cb4d35e1 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1480098689 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -87,13 +87,13 @@
   "Table3.png" 1543265171 97083 dd0205e084a73dbbc6dd61307fe273b7 ""
   "Table4.png" 1543265171 80686 acbf6c434d084ef1628e54be03d8496e ""
   "ceclogo.png" 1539309836 25678 d9b8faa68799b5bb943adeab9f6e7510 ""
-  "sample.aux" 1543321747 6165 86ad4d8985b4fdb99d89c8964d09700b ""
-  "sample.lof" 1543321747 1226 14f5deec360832fc506df4fceccec9ef ""
-  "sample.tex" 1543321745 51190 a4bbca8f55187c993edf244ff600139e ""
-  "sample.toc" 1543321747 3132 da3711dcedaa943095c23d7477dad656 ""
+  "sample.aux" 1543458940 6215 b06e00fa474a194a9f95b899079a8238 ""
+  "sample.lof" 1543458940 1308 97d4044a5b2541344c306d54eb12fad3 ""
+  "sample.tex" 1543458939 51217 f2d4a2b9c68e2844a015de00cb4d35e1 ""
+  "sample.toc" 1543458940 3090 95f1d77a2f388ac1a07916f8ba80cad2 ""
   (generated)
-  "sample.log"
-  "sample.lof"
-  "sample.pdf"
   "sample.toc"
   "sample.aux"
+  "sample.pdf"
+  "sample.lof"
+  "sample.log"
