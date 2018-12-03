@@ -13,7 +13,8 @@
 \usepackage{setspace}
 \usepackage{chngcntr}
 \usepackage{fancyhdr}
-
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
 
 \pagestyle{fancy}
@@ -102,7 +103,9 @@ is a bonafide record of the work done by him.
 
 \hspace{0ex}
 \textbf{Co-ordinator}
-\hspace{40ex}
+\hspace{18ex}
+\textbf{Guide}
+\hspace{18ex}
 \textbf{Head of the Department}
 \newpage
 \pagenumbering{roman}
@@ -123,8 +126,7 @@ I would also like to thank \textbf{Dr. Smitha Dharan}, Head, Department of Compu
 Engineering, for providing constant support and encouragement.
 \paragraph{}
 Now I extend my sincere thanks to my seminar co-ordinators \textbf{Mrs. Shiny B}, Assistant
-Professor in Computer Engineering, \textbf{Mrs. Jyothirmayi Devi}, Assistant
-Professor in Computer Engineering and \textbf{Ms. Archana Vijayan} Assistant Professor in Computer Engineering for guiding me in my work and providing timely
+Professor in Computer Engineering and \textbf{Ms. Archana Vijayan}, Assistant Professor in Computer Engineering for guiding me in my work and providing timely
 advices and valuable suggestions.
 \paragraph{}
 Last but not the least, I extend my heartfelt gratitude to my parents and friends for
@@ -304,7 +306,7 @@ The current study investigates whether and to what extent RESOLVE helped languag
 The first research question investigated whether learners benefitted from the proposed tool support. To answer this question, we compared learners’ scores of their emotion word use in the pre-and post-writings. Besides the gain scores, we also reported learners’ error reduction ratios (ERR) in order to avoid analytical bias. 
 
 \begin{equation}
-    \dfrac{Post-Pre}{Max-Pre}
+    ERR = \dfrac{Post-Pre}{Max-Pre}
 \end{equation}
 
 \paragraph{}
@@ -383,7 +385,7 @@ The last question (item 7) sought participant reflections on the role of RESOLVE
 \end{figure}
 
 \newpage
-\section{Limitations and Future Work}
+\section{LIMITATIONS AND FUTURE WORK}
 To the best of our knowledge, this is the first study considering the application of sentiment analysis to assisting language learning. It is worth mentioning that although the focus of the current study is emotion vocabulary learning, the RESOLVE system can be easily adapted for other vocabulary or synonym learning. While the preliminary findings supported that the developed system was beneficial to emotion word use, there are limitations in this study that could be improved. For example, a greater number of participants should be involved, which could help us take a closer look at potential learner difficulties in the use of emotion words. Also, tool comparison (e.g., online thesauri) could be conducted to examine their individual impacts on learners. 
 
 \newpage
@@ -394,9 +396,11 @@ Emotion vocabulary has been an important concern in several disciplines. They we
 Mastering emotion words is a challenging task for language learners, so emotion vocabulary should be explicitly taught and consciously learned. The RESOLVE system is applicable for use in classroom teaching and activities. The approach proposed in this study could be replicated in the classroom. Instructors could create various scenarios for specific emotion categories and have their students compose writings via consulting RESOLVE. Afterwards, instructors elaborate on how the words students produce could be used in various scenarios. Such pedagogical activities enable learners to develop a clearer understanding of as well as stronger command of emotion word use. 
 
 \newpage
-\cleardoublepage
+% \cleardoublepage
 % \addcontentsline{toc}{section}{\textbf{References}}
-\addcontentsline{}{section}{\textbf{References}}
+% \addcontentsline{}{section}{\textbf{References}}
+
+\section{REFERENCES}
 \begin{thebibliography}{9}
 
 
